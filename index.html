@@ -126,6 +126,17 @@
 
     <!-- Vercel + posthog analytics  -->
 
+
+    <!-- Add this to your HTML where you want the widget to appear -->
+    <script id="om-chat-widget-script" src="https://om-chat.vercel.app/api/widget"></script>
+    <script>
+      initOMChatWidget({
+        userId: "user_2vhCL4ApCXnlCsptTDBmNEcPG2A", // Your Clerk User ID: user_2vhCL4ApCXnlCsptTDBmNEcPG2A
+        companyName: "Task Wizard",
+        primaryColor: "#ff0202"
+      });
+    </script>
+
     <script>
       window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
